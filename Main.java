@@ -85,6 +85,7 @@ public class Main {
                     System.out.println("This cell is occupied! Choose another one!");
                 } else {
                     board[rowInput - 1][colInput - 1] = symbol;
+                    scanner.nextLine();
                     break;
                 }
                 //Make sure the scanner reads the whole line such that he is done and "reset" for the next run of the loop
